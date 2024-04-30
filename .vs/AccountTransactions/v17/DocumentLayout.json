@@ -1,0 +1,209 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\zey\\Desktop\\Project\\AccountTransactions\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{31887640-EC8E-4001-80F6-F275E9E2B341}|AccountTransactions\\AccountTransactions.csproj|c:\\users\\zey\\desktop\\project\\accounttransactions\\accounttransactions\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31887640-EC8E-4001-80F6-F275E9E2B341}|AccountTransactions\\AccountTransactions.csproj|solutionrelative:accounttransactions\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31887640-EC8E-4001-80F6-F275E9E2B341}|AccountTransactions\\AccountTransactions.csproj|C:\\Users\\zey\\Desktop\\Project\\AccountTransactions\\accounttransactions\\smsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31887640-EC8E-4001-80F6-F275E9E2B341}|AccountTransactions\\AccountTransactions.csproj|solutionrelative:accounttransactions\\smsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31887640-EC8E-4001-80F6-F275E9E2B341}|AccountTransactions\\AccountTransactions.csproj|C:\\Users\\zey\\Desktop\\Project\\AccountTransactions\\accounttransactions\\accountoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31887640-EC8E-4001-80F6-F275E9E2B341}|AccountTransactions\\AccountTransactions.csproj|solutionrelative:accounttransactions\\accountoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31887640-EC8E-4001-80F6-F275E9E2B341}|AccountTransactions\\AccountTransactions.csproj|C:\\Users\\zey\\Desktop\\Project\\AccountTransactions\\accounttransactions\\mailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31887640-EC8E-4001-80F6-F275E9E2B341}|AccountTransactions\\AccountTransactions.csproj|solutionrelative:accounttransactions\\mailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31887640-EC8E-4001-80F6-F275E9E2B341}|AccountTransactions\\AccountTransactions.csproj|C:\\Users\\zey\\Desktop\\Project\\AccountTransactions\\accounttransactions\\menumanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31887640-EC8E-4001-80F6-F275E9E2B341}|AccountTransactions\\AccountTransactions.csproj|solutionrelative:accounttransactions\\menumanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31887640-EC8E-4001-80F6-F275E9E2B341}|AccountTransactions\\AccountTransactions.csproj|C:\\Users\\zey\\Desktop\\Project\\AccountTransactions\\accounttransactions\\datamanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31887640-EC8E-4001-80F6-F275E9E2B341}|AccountTransactions\\AccountTransactions.csproj|solutionrelative:accounttransactions\\datamanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31887640-EC8E-4001-80F6-F275E9E2B341}|AccountTransactions\\AccountTransactions.csproj|C:\\Users\\zey\\Desktop\\Project\\AccountTransactions\\accounttransactions\\accounteventargs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31887640-EC8E-4001-80F6-F275E9E2B341}|AccountTransactions\\AccountTransactions.csproj|solutionrelative:accounttransactions\\accounteventargs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31887640-EC8E-4001-80F6-F275E9E2B341}|AccountTransactions\\AccountTransactions.csproj|C:\\Users\\zey\\Desktop\\Project\\AccountTransactions\\accounttransactions\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31887640-EC8E-4001-80F6-F275E9E2B341}|AccountTransactions\\AccountTransactions.csproj|solutionrelative:accounttransactions\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31887640-EC8E-4001-80F6-F275E9E2B341}|AccountTransactions\\AccountTransactions.csproj|C:\\Users\\zey\\Desktop\\Project\\AccountTransactions\\accounttransactions\\bankaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31887640-EC8E-4001-80F6-F275E9E2B341}|AccountTransactions\\AccountTransactions.csproj|solutionrelative:accounttransactions\\bankaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 11,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{65ddf8c3-8f89-4077-a6c6-dbb8853aab13}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:11:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:12:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:13:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:14:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:15:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:16:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:17:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:19:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:18:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:20:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\zey\\Desktop\\Project\\AccountTransactions\\AccountTransactions\\Program.cs",
+              "RelativeDocumentMoniker": "AccountTransactions\\Program.cs",
+              "ToolTip": "C:\\Users\\zey\\Desktop\\Project\\AccountTransactions\\AccountTransactions\\Program.cs",
+              "RelativeToolTip": "AccountTransactions\\Program.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAgwCAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T06:22:17.782Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "BankAccount.cs",
+              "DocumentMoniker": "C:\\Users\\zey\\Desktop\\Project\\AccountTransactions\\AccountTransactions\\BankAccount.cs",
+              "RelativeDocumentMoniker": "AccountTransactions\\BankAccount.cs",
+              "ToolTip": "C:\\Users\\zey\\Desktop\\Project\\AccountTransactions\\AccountTransactions\\BankAccount.cs",
+              "RelativeToolTip": "AccountTransactions\\BankAccount.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAiwAoAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T07:11:35.214Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AccountOperation.cs",
+              "DocumentMoniker": "C:\\Users\\zey\\Desktop\\Project\\AccountTransactions\\AccountTransactions\\AccountOperation.cs",
+              "RelativeDocumentMoniker": "AccountTransactions\\AccountOperation.cs",
+              "ToolTip": "C:\\Users\\zey\\Desktop\\Project\\AccountTransactions\\AccountTransactions\\AccountOperation.cs",
+              "RelativeToolTip": "AccountTransactions\\AccountOperation.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAswBoAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T06:30:34.617Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MailService.cs",
+              "DocumentMoniker": "C:\\Users\\zey\\Desktop\\Project\\AccountTransactions\\AccountTransactions\\MailService.cs",
+              "RelativeDocumentMoniker": "AccountTransactions\\MailService.cs",
+              "ToolTip": "C:\\Users\\zey\\Desktop\\Project\\AccountTransactions\\AccountTransactions\\MailService.cs",
+              "RelativeToolTip": "AccountTransactions\\MailService.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABgAAABhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T09:16:45.756Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SmsService.cs",
+              "DocumentMoniker": "C:\\Users\\zey\\Desktop\\Project\\AccountTransactions\\AccountTransactions\\SmsService.cs",
+              "RelativeDocumentMoniker": "AccountTransactions\\SmsService.cs",
+              "ToolTip": "C:\\Users\\zey\\Desktop\\Project\\AccountTransactions\\AccountTransactions\\SmsService.cs",
+              "RelativeToolTip": "AccountTransactions\\SmsService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T06:42:52.95Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DataManagement.cs",
+              "DocumentMoniker": "C:\\Users\\zey\\Desktop\\Project\\AccountTransactions\\AccountTransactions\\DataManagement.cs",
+              "RelativeDocumentMoniker": "AccountTransactions\\DataManagement.cs",
+              "ToolTip": "C:\\Users\\zey\\Desktop\\Project\\AccountTransactions\\AccountTransactions\\DataManagement.cs",
+              "RelativeToolTip": "AccountTransactions\\DataManagement.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T17:36:43.556Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AccountEventArgs.cs",
+              "DocumentMoniker": "C:\\Users\\zey\\Desktop\\Project\\AccountTransactions\\AccountTransactions\\AccountEventArgs.cs",
+              "RelativeDocumentMoniker": "AccountTransactions\\AccountEventArgs.cs",
+              "ToolTip": "C:\\Users\\zey\\Desktop\\Project\\AccountTransactions\\AccountTransactions\\AccountEventArgs.cs",
+              "RelativeToolTip": "AccountTransactions\\AccountEventArgs.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAAwA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T06:32:31.645Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MenuManagement.cs",
+              "DocumentMoniker": "C:\\Users\\zey\\Desktop\\Project\\AccountTransactions\\AccountTransactions\\MenuManagement.cs",
+              "RelativeDocumentMoniker": "AccountTransactions\\MenuManagement.cs",
+              "ToolTip": "C:\\Users\\zey\\Desktop\\Project\\AccountTransactions\\AccountTransactions\\MenuManagement.cs",
+              "RelativeToolTip": "AccountTransactions\\MenuManagement.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAA0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T17:29:01.172Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\zey\\Desktop\\Project\\AccountTransactions\\AccountTransactions\\Customer.cs",
+              "RelativeDocumentMoniker": "AccountTransactions\\Customer.cs",
+              "ToolTip": "C:\\Users\\zey\\Desktop\\Project\\AccountTransactions\\AccountTransactions\\Customer.cs",
+              "RelativeToolTip": "AccountTransactions\\Customer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwA8AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T06:26:01.417Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

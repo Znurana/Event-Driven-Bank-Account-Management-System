@@ -1,0 +1,26 @@
+﻿<Properties StartupConfiguration="{31887640-EC8E-4001-80F6-F275E9E2B341}|Default">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.AccountTransactions PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="AccountTransactions/Program.cs">
+    <Files>
+      <File FileName="AccountTransactions/Program.cs" Line="17" Column="33" />
+      <File FileName="AccountTransactions/MenuManagement.cs" />
+      <File FileName="AccountTransactions/AccountEventArgs.cs" />
+      <File FileName="AccountTransactions/SmsService.cs" Line="19" Column="38" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="AccountTransactions" expanded="True">
+            <Node name="AccountTransactions" selected="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>
