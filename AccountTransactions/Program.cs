@@ -1,53 +1,21 @@
 ﻿using AccountTransactions;
-using System.Net;
-using System.Net.Mail;
+using AccountTransactions.Interface;
 
 namespace EventTask;
 class Program
 {
+     
     static void Main(string[] args)
     {
-
-        MailMessage mailMessage = new MailMessage();
-        mailMessage.From = new MailAddress("emailfrom"); 
-        mailMessage.To.Add("emailTo");
-        mailMessage.Subject = "Test Subject";
-        mailMessage.Body = "This is test email";
-
-        SmtpClient smtpClient = new SmtpClient();
-        smtpClient.Host = "smtp.gmail.com";
-        smtpClient.Port = 587; // or 465 for SSL/TLS
-
-        smtpClient.Credentials = new NetworkCredential("youremail@gmail.com", "yourpassword");
-        smtpClient.UseDefaultCredentials = false;
-        smtpClient.EnableSsl = true;
-
-        try
-        {
-            smtpClient.Send(mailMessage);
-            Console.WriteLine("Email Sent Successfully.");
-        }
-        catch (Exception ex)
-        {
-            Console.WriteLine("Error: " + ex.Message);
-        }
-
         int selectedMenu = 0;
         do
         {
             selectedMenu = MenuManagement.SelectMenu();
             AccountOperation accountOperation = new AccountOperation();
-            SmsService smsService = new SmsService();
-            accountOperation.CreateAccountProcessCompleted += smsService.SendSmsForCreatingAccount;
-            accountOperation.MoneyDepositProcessCompleted += smsService.SendSmsForDepositMoney;
-            accountOperation.MoneyWithdrawProcessCompleted += smsService.SendSmsForWithdrawMoney;
-            accountOperation.ShowBalanceProcessCompleted += smsService.SendSmsForShowBalance;
-            MailService mailService = new MailService();
-            accountOperation.CreateAccountProcessCompleted += mailService.SendMailForCreatingAccount;
-            accountOperation.MoneyDepositProcessCompleted += mailService.SendMailForDepositMoney;
-            accountOperation.MoneyWithdrawProcessCompleted += mailService.SendMailForWithdrawMoney;
-            accountOperation.ShowBalanceProcessCompleted += mailService.SendMailForShowBalance;
-
+            accountOperation.CreateAccountProcessCompleted += C_CreateAccountProcessCompleted;
+            accountOperation.MoneyDepositProcessCompleted += C_MoneyDepositProcessCompleted;
+            accountOperation.MoneyWithdrawProcessCompleted += C_MoneyWithdrawProcessCompleted;
+            accountOperation.ShowBalanceProcessCompleted += C_ShowBalanceProcessCompleted;
 
             switch (selectedMenu)
             {
@@ -83,6 +51,49 @@ class Program
         } while (selectedMenu != 5);
     }
 
+    private static void C_ShowBalanceProcessCompleted(object? sender, AccountEventArgs e)
+    {
+        IMessageService service = new SmsService();
+        service.SendMessageForShowBalance(e.Customer.BankAccount.Balance, e.Amount);
+        service = new MailService();
+        service.SendMessageForShowBalance(e.Customer.BankAccount.Balance, e.Amount);
+        service = new TelegramService();
+        service.SendMessageForShowBalance(e.Customer.BankAccount.Balance, e.Amount);
 
+    }
+ 
+    private static void C_MoneyWithdrawProcessCompleted(object? sender, AccountEventArgs e)
+    {
+        IMessageService service = new SmsService();
+        service.SendMessageForWithdrawMoney(e.Customer.BankAccount.Balance, e.Amount);
+        service = new MailService();
+        service.SendMessageForWithdrawMoney(e.Customer.BankAccount.Balance, e.Amount);
+        service = new TelegramService();
+        service.SendMessageForWithdrawMoney(e.Customer.BankAccount.Balance, e.Amount);
+    }
+
+
+    private static void C_MoneyDepositProcessCompleted(object? sender, AccountEventArgs e)
+    {
+        IMessageService service = new SmsService();
+        service.SendMessageForDepositMoney(e.Customer.BankAccount.Balance, e.Amount);
+        service = new MailService();
+        service.SendMessageForDepositMoney(e.Customer.BankAccount.Balance, e.Amount);
+        service = new TelegramService();
+        service.SendMessageForDepositMoney(e.Customer.BankAccount.Balance, e.Amount);
+    }
+
+
+    private static void C_CreateAccountProcessCompleted(object? sender, AccountEventArgs e)
+    {
+        IMessageService service = new SmsService();
+        service.SendMessageForCreatingAccount(e.Customer.BankAccount.AccountNumber, e.Customer.Name);
+        service = new MailService();
+        service.SendMessageForCreatingAccount(e.Customer.BankAccount.AccountNumber, e.Customer.Name);
+        service = new TelegramService();
+        service.SendMessageForCreatingAccount(e.Customer.BankAccount.AccountNumber, e.Customer.Name);
+
+
+    }
 
 }

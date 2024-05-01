@@ -1,28 +1,24 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using AccountTransactions.Interface;
 
 namespace AccountTransactions
 {
-    internal class MailService
+    internal class MailService: IMessageService
     {
-        public void SendMailForCreatingAccount(object source, AccountEventArgs e)
+        public void SendMessageForCreatingAccount(int accountNumber, string customerName)
         {
-            Console.WriteLine($"MAIL: This account number  {e.Customer.BankAccount.AccountNumber}  has been successfully opened for this customer {e.Customer.Name}   ");
+            Console.WriteLine($"MAIL: This account number  {accountNumber}  has been successfully opened for this customer {customerName}   ");
         }
-        public void SendMailForDepositMoney(object source, AccountEventArgs e)
+        public void SendMessageForDepositMoney(decimal balance, decimal amount)
         {
-            Console.WriteLine($"MAIL: This Money {e.Amount} have been deposited into this account and you have {e.Customer.BankAccount.Balance} money in your account ");
+            Console.WriteLine($"MAIL: This Money {amount} have been deposited into this account and you have {balance} money in your account ");
         }
-        public void SendMailForWithdrawMoney(object source, AccountEventArgs e)
+        public void SendMessageForWithdrawMoney(decimal balance, decimal amount)
         {
-            Console.WriteLine($"MAIL:  This Money {e.Amount} have been withdraw  this account and you have {e.Customer.BankAccount.Balance}   money in your account ");
+            Console.WriteLine($"MAIL: This Money {amount} have been withdraw  this account and you have {balance}   money in your account ");
         }
-        public void SendMailForShowBalance(object source, AccountEventArgs e)
+        public void SendMessageForShowBalance(decimal balance, decimal amount)
         {
-            Console.WriteLine($"MAIL: Your account Balance is : {e.Customer.BankAccount.Balance} ");
+            Console.WriteLine($"MAIL: You balance is :{balance}   ");
         }
     }
 }

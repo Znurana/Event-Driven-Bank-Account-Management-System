@@ -1,26 +1,36 @@
 ﻿<Properties StartupConfiguration="{31887640-EC8E-4001-80F6-F275E9E2B341}|Default">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.AccountTransactions PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="AccountTransactions/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="AccountTransactions/MailService.cs">
     <Files>
-      <File FileName="AccountTransactions/Program.cs" Line="17" Column="33" />
+      <File FileName="AccountTransactions/Program.cs" Line="9" Column="6" />
       <File FileName="AccountTransactions/MenuManagement.cs" />
-      <File FileName="AccountTransactions/AccountEventArgs.cs" />
-      <File FileName="AccountTransactions/SmsService.cs" Line="19" Column="38" />
+      <File FileName="AccountTransactions/AccountEventArgs.cs" Line="1" Column="1" />
+      <File FileName="AccountTransactions/SmsService.cs" Line="1" Column="1" />
+      <File FileName="AccountTransactions/MailService.cs" Line="5" Column="48" />
+      <File FileName="AccountTransactions/AccountOperation.cs" Line="1" Column="1" />
+      <File FileName="AccountTransactions/DataManagement.cs" />
+      <File FileName="AccountTransactions/TelegramService.cs" />
+      <File FileName="AccountTransactions/BankAccount.cs" Line="1" Column="1" />
+      <File FileName="AccountTransactions/Interface/IMessageService.cs" Line="17" Column="1" />
+      <File FileName="AccountTransactions/Customer.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="AccountTransactions" expanded="True">
-            <Node name="AccountTransactions" selected="True" />
+            <Node name="AccountTransactions" expanded="True">
+              <Node name="Interface" expanded="True" />
+              <Node name="MailService.cs" selected="True" />
+            </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.AccountTransactions PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MultiItemStartupConfigurations />
 </Properties>

@@ -1,22 +1,24 @@
-﻿namespace AccountTransactions
+﻿using AccountTransactions.Interface;
+
+namespace AccountTransactions
 {
-    internal class SmsService
+    internal class SmsService:IMessageService
     {
-        public void SendSmsForCreatingAccount(object source, AccountEventArgs e)
+        public void SendMessageForCreatingAccount(int accountNumber, string customerName)
         {
-            Console.WriteLine($"SMS: This account number  {e.Customer.BankAccount.AccountNumber}  has been successfully opened for this customer {e.Customer.Name}   ");
+            Console.WriteLine($"SMS: This account number  {accountNumber}  has been successfully opened for this customer {customerName}   ");
         }
-        public void SendSmsForDepositMoney(object source, AccountEventArgs e)
+        public void SendMessageForDepositMoney(decimal balance,decimal amount)
         {
-            Console.WriteLine($"SMS: This Money {e.Amount} have been deposited into this account and you have {e.Customer.BankAccount.Balance} money in your account ");
+            Console.WriteLine($"SMS: This Money {amount} have been deposited into this account and you have {balance} money in your account ");
         }
-        public void SendSmsForWithdrawMoney(object source, AccountEventArgs e)
+        public void SendMessageForWithdrawMoney(decimal balance, decimal amount)
         {
-            Console.WriteLine($"SMS: This Money {e.Amount} have been withdraw  this account and you have {e.Customer.BankAccount.Balance}   money in your account ");
+            Console.WriteLine($"SMS: This Money {amount} have been withdraw  this account and you have {balance}   money in your account ");
         }
-        public void SendSmsForShowBalance(object source, AccountEventArgs e)
+        public void SendMessageForShowBalance(decimal balance, decimal amount)
         {
-            Console.WriteLine($"SMS: You balance is :{e.Customer.BankAccount.Balance}   ");
+            Console.WriteLine($"SMS: You balance is :{balance}   ");
         }
     }
 }
